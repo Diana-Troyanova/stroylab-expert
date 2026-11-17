@@ -1,0 +1,33 @@
+# Local notes and conversation exports
+/AGENTS.md
+/PROJECT_CONTEXT.md
+/CLAUDE_HISTORY_REFERENCE.md
+/README.txt
+/.agents/
+/.codex/
+
+# Local previews, generated deployment copies, and handoff archives
+/.client-preview/
+/.portfolio-work/
+/region-build/
+/stroylab-preview.tar
+/stroylab-preview.zip
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Runtime and editor files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+/.idea/
+/.vscode/

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Калькулятор коэффициента уплотнения грунта | СТРОЙЛАБЭКСПЕРТ</title>
+  <meta name="description" content="Сравните плотность сухого грунта с лабораторным максимумом и требованием проекта.">
+  <link rel="stylesheet" href="/assets/style.css">
+  <script defer src="/assets/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">К содержанию</a>
+  <div class="top"><div class="container"><details class="region-picker"><summary aria-label="Выбрать город, сейчас Белгород">Белгород</summary><div><p><a href="/regiony/belgorod/">Белгород</a><br><a href="/regiony/belgorod/stary-oskol/">Старый Оскол</a> · <a href="/regiony/belgorod/gubkin/">Губкин</a></p><p><a href="/regiony/kursk/">Курск</a><br><a href="/regiony/kursk/zheleznogorsk/">Железногорск</a> · <a href="/regiony/kursk/kurchatov/">Курчатов</a></p><p><a href="/regiony/bryansk/">Брянск</a><br><a href="/regiony/bryansk/klintsy/">Клинцы</a> · <a href="/regiony/bryansk/novozybkov/">Новозыбков</a></p><p><a href="/regiony/donetsk/">Донецк</a><br><a href="/regiony/donetsk/makeevka/">Макеевка</a> · <a href="/regiony/donetsk/gorlovka/">Горловка</a> · <a href="/regiony/donetsk/volnovakha/">Волноваха</a></p><p><a href="/regiony/mariupol/">Мариуполь</a><br></p><p><a href="/regiony/lugansk/">Луганск</a><br><a href="/regiony/lugansk/alchevsk/">Алчевск</a> · <a href="/regiony/lugansk/severodonetsk/">Северодонецк</a></p><p><a href="/regiony/zaporozhye/">Запорожье</a><br><a href="/regiony/zaporozhye/melitopol/">Мелитополь</a> · <a href="/regiony/zaporozhye/berdyansk/">Бердянск</a> · <a href="/regiony/zaporozhye/energodar/">Энергодар</a></p><p><a href="/regiony/kherson/">Херсон</a><br><a href="/regiony/kherson/genichesk/">Геническ</a> · <a href="/regiony/kherson/skadovsk/">Скадовск</a></p></div></details><a href="tel:+79194305734">+7 (919) 430-57-34</a></div></div><header class="header"><div class="container nav"><a href="/" class="brand">СТРОЙЛАБЭКСПЕРТ <small>Строительная лаборатория и экспертиза</small></a><button class="menu" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="site-nav"><span class="menu-lines" aria-hidden="true"></span></button><nav id="site-nav" aria-label="Основное меню"><a href="/uslugi/">Услуги и цены</a><a href="/dopusk/">Документы и аккредитация</a><a href="/obekty/">Объекты</a><a href="/poleznoe/" aria-current="location">Справочник ПТО</a><a href="/kontakty/">Контакты и филиалы</a></nav></div></header>
+  <main id="main">
+<div class="pagehead">
+<div class="container">
+<div class="crumb">
+<a href="/">Главная</a> / <a href="/poleznoe/">Полезное</a> / <span>Калькулятор коэффициента уплотнения грунта</span>
+</div>
+<h1>Калькулятор коэффициента уплотнения грунта</h1>
+<p>Сравните плотность сухого грунта с лабораторным максимумом и требованием проекта.</p>
+</div>
+</div>
+<section>
+<div class="container article">
+<div>
+<div class="calc">
+<noscript>Для пересчёта включите JavaScript. Формула и пример приведены ниже.</noscript>
+<div class="fields">
+<div class="field">
+<label for="soilActual">Плотность сухого грунта, г/см³</label>
+<input data-calc="calcSoil" id="soilActual" type="number" min="0" step="any" value="1.54">
+</div>
+<div class="field">
+<label for="soilMax">Максимальная сухая плотность, г/см³</label>
+<input data-calc="calcSoil" id="soilMax" type="number" min="0" step="any" value="1.68">
+</div>
+<div class="field">
+<label for="soilTarget">Порог по проекту (необязательно)</label>
+<input data-calc="calcSoil" id="soilTarget" type="number" min="0" step="any" value="0.95">
+</div>
+</div>
+<div class="result" id="soilResult" aria-live="polite"></div>
+<p class="note">Предварительный расчёт. Для официального подтверждения соответствия необходимы корректные результаты испытаний и проектные требования.</p>
+</div>
+<h2>Коэффициент уплотнения по сухой плотности</h2>
+<p>Купл = ρd / ρd,max. Оба значения должны относиться к одному материалу и быть выражены в одинаковых единицах. Порог указывают по проекту. Без него можно получить коэффициент без оценки.</p>
+<p>При 1,54 и 1,68 г/см³ коэффициент равен примерно 0,917. С порогом сравнивается значение до округления.</p>
+<p>Лабораторный максимум определяют с учётом области применения <a href="https://protect.gost.ru/gost/details/99bca3f8-7607-4c8f-9f41-f5a49c237163">ГОСТ 22733-2016</a>.</p>
+<a class="btn" href="/poleznoe/kontrol-peschanoi-podushki/">Контроль песчаной подушки <span aria-hidden="true">→</span></a>
+</div>
+</div>
+</section>
+</main>
+  <footer class="footer"><div class="container footgrid"><div><div class="brand" style="color:white">СТРОЙЛАБЭКСПЕРТ</div><p class="small">Демонстрационная версия. Документы готовятся к публикации.</p></div><div><a href="/uslugi/">Услуги</a> · <a href="/obekty/">Объекты</a> · <a href="/poleznoe/">Полезное</a></div></div><div class="container"><hr style="border:0;border-top:1px solid #365065;margin:25px 0"><span class="small"><a href="/politika/">Политика конфиденциальности</a> · © 2026 · Предварительный макет сайта. Не является публичной офертой.</span></div></footer>
+</body>
+</html>
